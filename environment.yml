@@ -1,0 +1,11 @@
+name: openvibe_neurofeedback
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pip:
+    - pygame
+    - pylsl

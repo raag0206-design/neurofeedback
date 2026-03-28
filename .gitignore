@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+.env/
+
+# Data files
+*.gdf
+*.edf
+*.log
+
+# Workspace specific
+.vscode/
+.idea/
+.DS_Store
