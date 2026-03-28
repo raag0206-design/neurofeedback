@@ -9,11 +9,11 @@ conda env create -f environment.yml
 conda activate openvibe_neurofeedback
 ```
 
-### 2. Using Python venv (.env)
+### 2. Using Python venv
 If you prefer using a standard virtual environment:
 ```bash
-python -m venv .env
-source .env/bin/activate  # On Windows: .env\Scripts\activate
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install pygame pylsl numpy matplotlib
 ```
 
